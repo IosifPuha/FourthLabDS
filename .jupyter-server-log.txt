@@ -1,0 +1,68 @@
+Launching jupyter-lab
+[I 2024-04-17 09:07:39.388 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2024-04-17 09:07:39.388 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-04-17 09:07:39.397 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-04-17 09:07:39.405 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-04-17 09:07:39.408 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.408 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.408 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.408 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.408 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-04-17 09:07:39.415 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-04-17 09:07:39.419 NotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-04-17 09:07:39.419 NotebookApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2024-04-17 09:07:39.419 NotebookApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.419 NotebookApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-17 09:07:39.419 NotebookApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-04-17 09:07:39.426 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-04-17 09:07:39.428 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-04-17 09:07:39.828 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-17 09:07:39.872 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-17 09:07:39.873 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2024-04-17 09:07:39.875 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-04-17 09:07:39.875 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-04-17 09:07:39.876 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/jovyan
+[I 2024-04-17 09:07:39.876 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/jovyan/.local/share/jupyter/file_id_manager.db
+[I 2024-04-17 09:07:39.876 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-04-17 09:07:39.876 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-04-17 09:07:39.883 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-04-17 09:07:39.885 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-04-17 09:07:39.888 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.10/site-packages/jupyterlab
+[I 2024-04-17 09:07:39.888 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2024-04-17 09:07:39.898 ServerApp] jupyterlab | extension was successfully loaded.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2024-04-17 09:07:39.906 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-04-17 09:07:39.906 ServerApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 2024-04-17 09:07:39.907 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2024-04-17 09:07:39.907 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2024-04-17 09:07:39.907 ServerApp] http://jupyter-iosifpuha-2dfourthlabds-2dxl32bbe2:8888/binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/lab?token=...
+[I 2024-04-17 09:07:39.907 ServerApp]  or http://127.0.0.1:8888/binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/lab?token=...
+[I 2024-04-17 09:07:39.907 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-04-17 09:07:39.913 ServerApp] No web browser found: could not locate runnable browser.
+[I 2024-04-17 09:07:40.573 ServerApp] 302 GET /binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/ (194.95.75.9) 1.48ms
+[I 2024-04-17 09:07:40.798 ServerApp] 302 GET /binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/?token=[secret] (151.16.246.0) 1.56ms
+[W 2024-04-17 09:07:42.110 ServerApp] 404 GET /binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/api/me?1713344860676 (151.16.246.0) 32.93ms referer=https://notebooks.gesis.org/binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/lab
+[I 2024-04-17 09:07:46.817 LabApp] Build is up to date
+[I 2024-04-17 09:08:22.574 ServerApp] New terminal with automatic name: 1
+[I 2024-04-17 09:08:35.022 ServerApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 2024-04-17 09:08:35.023 ServerApp] Notebook laboratorio 4.ipynb is not trusted
+[I 2024-04-17 09:08:35.854 ServerApp] Kernel started: 2d12834b-f0e0-4a8c-bf3e-87f46cb88e30
+[I 2024-04-17 09:08:35.854 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2024-04-17 09:08:35.855 ServerApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.10/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2024-04-17 09:08:36.957 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f6694c18f70>
+[I 2024-04-17 09:08:37.091 ServerApp] Starting buffering for 2d12834b-f0e0-4a8c-bf3e-87f46cb88e30:8d478ecd-9c9d-475c-8dc7-7774e4a7affc
+[I 2024-04-17 09:08:40.097 ServerApp] Saving file at /laboratorio 4.ipynb

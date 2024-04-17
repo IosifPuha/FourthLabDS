@@ -1,0 +1,13 @@
+{
+  "base_url": "/binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 14,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "_7KaxTN8TvqxD5BSm5q1hg",
+  "url": "http://jupyter-iosifpuha-2dfourthlabds-2dxl32bbe2:8888/binder/jupyter/user/iosifpuha-fourthlabds-xl32bbe2/",
+  "version": "1.24.0"
+}
